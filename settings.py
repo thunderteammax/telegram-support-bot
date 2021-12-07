@@ -17,6 +17,6 @@ if TELEGRAM_SUPPORT_CHAT_ID is None or not str(TELEGRAM_SUPPORT_CHAT_ID).lstrip(
 TELEGRAM_SUPPORT_CHAT_ID = int(TELEGRAM_SUPPORT_CHAT_ID)
 
 
-WELCOME_MESSAGE = os.getenv("WELCOME_MESSAGE", "Hey There I can Promote Your YouTube Channel Before That You have to send me Your Details. /n Details /nChannel Name :- /nChannel Link :- /nEmail :- /nYour Explanation :- ")
+WELCOME_MESSAGE = os.getenv("WELCOME_MESSAGE", "Hey There I can Promote Your YouTube Channel Before That You have to send me Your Details. f"/nDetails f"/nChannel Name :- f"/nChannel Link :- f"/nEmail :- f"/nYour Explanation :- ")
 REPLY_TO_THIS_MESSAGE = os.getenv("REPLY_TO_THIS_MESSAGE", "REPLY_TO_THIS")
 WRONG_REPLY = os.getenv("WRONG_REPLY", "WRONG_REPLY")
